@@ -40,7 +40,7 @@ class Window(QMainWindow, Ui_MainWindow):
         super(Window, self).__init__()
         uic.loadUi('UI.ui', self)
         self.setFixedSize(740, 700)
-        self.setWindowTitle('Минипланировщик')
+        self.setWindowTitle('Круги')
         self.pushButton.clicked.connect(self.runAction)
         self.obj = []
 
